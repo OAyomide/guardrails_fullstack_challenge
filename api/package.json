@@ -1,0 +1,27 @@
+{
+  "name": "guardrail-challenge-api",
+  "version": "1.0.0",
+  "description": "api for the guardrail-challenge ",
+  "main": "index.js",
+  "repository": "https://github.com/oayomide/guardrail-challenge",
+  "author": "Ayomide Onigbinde",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.11"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "NODE_ENV=test npx mocha test/**/*.test.js --exit"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  }
+}
